@@ -130,7 +130,7 @@ public class TransactionController {
      * Transfer money between accounts - Simple version
      * POST /api/v1/transactions/transfer?fromAccountId=1&toAccountId=2&amount=5000
      */
-    @PostMapping("/transfer")
+   /* @PostMapping("/transfer")
     @Operation(summary = "Transfer Money",
             description = "Transfer money between two accounts")
     public ResponseEntity<TransactionResponse> transfer(
@@ -146,7 +146,7 @@ public class TransactionController {
         );
 
         return ResponseEntity.ok(response);
-    }
+    }*/
 
     /**
      * Transfer money - Detailed version
